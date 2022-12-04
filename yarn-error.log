@@ -1,0 +1,37 @@
+Arguments: 
+  /snap/node/6895/bin/node /snap/node/6895/bin/yarn.js add --dev hardhat
+
+PATH: 
+  /home/pranav/.bun/bin:/home/pranav/.bun/bin:/home/pranav/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pranav/Android/Sdk/emulator:/home/pranav/Android/Sdk/platform-tools:/usr/local/go/bin:/home/pranav/Android/Sdk/emulator:/home/pranav/Android/Sdk/platform-tools:/usr/local/go/bin:/home/pranav/Android/Sdk/emulator:/home/pranav/Android/Sdk/platform-tools:/usr/local/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EBUSY registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "lottery",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
